@@ -35,7 +35,7 @@ Aquí está el repositorio con todos los laboratorios. Solo dale clic al título
 
 ### Componente 2: (Defensa en Video)
 
-* **[Video de Defensa - Componente 2](https://drive.google.com/file/d/1IuH6-SREl6r1NkJoXJtFIlHAy-vx2Pou/view?usp=drive_link)**  
+* **[Video de Defensa - Componente 2](https://drive.google.com/drive/folders/1OOsODP9JI1RYL7hT3EqbPCIkjhMZZQ1N?usp=sharing)**  
   Un video corto donde explico por qué usamos pruebas paramétricas (después de pasar el test de Shapiro-Wilk), muestro cómo funciona el código en Jupyter y analizo el valor-p para tomar decisiones estadísticas.
 
 ---

@@ -25,7 +25,7 @@ Aquí está el repositorio con todos los laboratorios. Solo dale clic al título
 
 ### Evaluación Sumativa y Base de Datos
 
-* **[Evaluación Sumativa II: Examen Práctico](./ExamenII_ArletteQuezada.ipynb)**  
+* **[Evaluación Sumativa II: Examen Práctico](./Examen_UnidadII_Matias_Romero.ipynb)**  
   Resolución de problemas reales aplicando todo lo que aprendimos de inferencia y modelos estadísticos.
 
 * **[Dataset Fuente: Datos de Loja](./enemdu_vivienda_hogar_2026_02.csv)**  
@@ -33,17 +33,17 @@ Aquí está el repositorio con todos los laboratorios. Solo dale clic al título
 
 ---
 
-### Componente 2: Trabajo Autónomo (Defensa en Video)
+### Componente 2: (Defensa en Video)
 
 * **[Video de Defensa - Componente 2](https://drive.google.com/file/d/1IuH6-SREl6r1NkJoXJtFIlHAy-vx2Pou/view?usp=drive_link)**  
-  Un video corto (6-8 min) donde explico por qué usamos pruebas paramétricas (después de pasar el test de Shapiro-Wilk), muestro cómo funciona el código en Jupyter y analizo el valor-p para tomar decisiones estadísticas.
+  Un video corto donde explico por qué usamos pruebas paramétricas (después de pasar el test de Shapiro-Wilk), muestro cómo funciona el código en Jupyter y analizo el valor-p para tomar decisiones estadísticas.
 
 ---
 
 ### Bitácora de Aprendizaje y Autoevaluación (Componente 3)
 
 **1. Lo que me llevo de la Unidad de Inferencia:**  
-En esta unidad por fin pasamos de solo describir datos a hacer inferencia de verdad. Lo mejor fue aprender a automatizar en Python las pruebas previas (como el test de Shapiro-Wilk) antes de lanzarme a hacer pruebas paramétricas. También logré entender bien qué significa realmente el valor-p y cómo nos ayuda a decidir, con un 95% de confianza, si rechazamos o no una hipótesis cuando comparamos varios grupos con ANOVA.
+En esta unidad por fin pasamos de solo describir datos a hacer inferencia de verdad. Lo mejor fue aprender a automatizar en Python las pruebas previas antes de lanzarme a hacer pruebas paramétricas. También logré entender bien qué significa realmente el valor-p y cómo nos ayuda a decidir, con un 95% de confianza, si rechazamos o no una hipótesis cuando comparamos varios grupos con ANOVA.
 
 **2. Los dolores de cabeza con el código:**  
 Lo más difícil fue acomodar bien los *DataFrames* con los datos de Loja y limpiar los valores vacíos (`NaN`) sin quedarme sin datos suficientes para la muestra. Además, cuadrar bien los grados de libertad en las pruebas T de Student y entender los resultados de las matrices de Tukey me costó un poco de trabajo mental, pero lo pude resolver usando las funciones vectorizadas de `scipy.stats`.

@@ -6,7 +6,7 @@ En esta sección se documentan las actividades experimentales enfocadas en el an
 
 A continuación, se detalla el repositorio de laboratorios. Puede hacer clic en el título de cada práctica para inspeccionar el cuaderno de código fuente correspondiente:
 
-* **[APE 00: Fundamentos de Probabilidad y Espacios Muestrales](./APE00_GrupoB.ipynb)** Modelado inicial de espacios probabilísticos y aplicación de reglas básicas de probabilidad.
+* **[APE 00: Fundamentos de Probabilidad y Espacios Muestrales](./APE00.ipynb)** Modelado inicial de espacios probabilísticos y aplicación de reglas básicas de probabilidad.
 
 * **[APE 01: Variables Aleatorias y Distribuciones de Probabilidad](./APE01.ipynb)** Construcción de funciones de probabilidad y estimación de la esperanza matemática para las variables de estudio iniciales.
 

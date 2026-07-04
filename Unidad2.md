@@ -28,7 +28,7 @@ Aquí está el repositorio con todos los laboratorios. Solo dale clic al título
 * **[Evaluación Sumativa II: Examen Práctico](./ExamenII_ArletteQuezada.ipynb)**  
   Resolución de problemas reales aplicando todo lo que aprendimos de inferencia y modelos estadísticos.
 
-* **[Dataset Fuente: Datos de Loja](./Dataset_hogares_ambiental_2025.csv)**  
+* **[Dataset Fuente: Datos de Loja](./enemdu_vivienda_hogar_2026_02.csv)**  
   El archivo original con los datos de Loja que usamos para correr todas las simulaciones en Python.
 
 ---

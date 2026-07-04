@@ -1,56 +1,56 @@
-# Unidad 2: Modelos Continuos e Inferencia Estadística
+# Unidad 2: Distribuciones Continuas e Inferencia Estadística
 
-Este apartado recopila todo el material práctico, las evaluaciones y la sustentación del trabajo autónomo de la segunda unidad. Aquí se documenta el análisis de distribuciones teóricas, los métodos de estimación de parámetros y la ejecución de contrastes de hipótesis orientados a nuestro proyecto de investigación.
+En esta sección guardamos todas las prácticas, los laboratorios, la nota del examen y la defensa del trabajo autónomo. Básicamente, es todo lo que hicimos sobre distribuciones, estimación de parámetros y pruebas de hipótesis aplicadas al proyecto.
 
-### Repositorio de Prácticas de Laboratorio (APEs)
+### Registro de Actividades Prácticas (APEs)
 
-A continuación se presenta el catálogo de experimentos computacionales. Para revisar el código fuente directamente en la interfaz de GitHub, basta con seleccionar el enlace de cada cuaderno:
+Aquí está el repositorio con todos los laboratorios. Solo dale clic al título de cada práctica para ver el código directamente en GitHub:
 
-* **[Laboratorio 06: Modelos de Probabilidad Continua](./APE06.ipynb)**  
-  Construcción analítica y uso práctico de funciones de densidad de probabilidad continua en diferentes escenarios de estudio.
+* **[APE 06: Distribuciones Continuas Notables](./APE06.ipynb)**  
+  Creación y uso de funciones de densidad continuas aplicadas a casos estadísticos.
 
-* **[Laboratorio 07: Simulaciones Estocásticas y TLC](./APE007.ipynb)**  
-  Comprobación computacional de los postulados del Teorema del Límite Central a través de experimentación aleatoria.
+* **[APE 07: Distribuciones Muestrales y TLC](./APE07.ipynb)**  
+  Comprobación del Teorema del Límite Central haciendo simulaciones estocásticas.
 
-* **[Laboratorio 08: Estimación y Rangos de Confianza](./APE08.ipynb)**  
-  Cálculo de estimadores poblacionales y construcción de rangos de certidumbre empleando los modelos teóricos Z y T de Student.
+* **[APE 08: Inferencia Estadística - Intervalos de Confianza](./APE08.ipynb)**  
+  Cálculo de parámetros y rangos de confianza usando las distribuciones Z y T de Student.
 
-* **[Laboratorio 09: Contrastes de Hipótesis Paramétricas](./APE09.ipynb)**  
-  Diseño y ejecución de validaciones estadísticas (estadísticos Z y T) integrando la interpretación analítica profunda del P-valor.
+* **[APE 09: Pruebas de Hipótesis Paramétricas](./APE09.ipynb)**  
+  Aplicación de pruebas Z y T, y cómo interpretar el famoso valor-p.
 
-* **[Laboratorio 10: Inferencia Comparativa Multigrupo](./APE010.ipynb)**  
-  Desarrollo de análisis de varianza unifactorial (ANOVA) complementado con contrastes múltiples de Tukey (Post-Hoc) para aislar diferencias específicas.
-
----
-
-### Examen Práctico y Archivos de Origen
-
-* **[Prueba de Síntesis II: Evaluación Computacional](./ExamenII_ArletteQuezada.ipynb)**  
-  Aplicación integral de técnicas inferenciales y modelos matemáticos para dar solución a casos prácticos sobre muestras de datos auténticas.
-
-* **[Conjunto de Datos: Registro Ambiental de Loja](./Dataset_hogares_ambiental_2025.csv)**  
-  Archivo crudo de información que sirvió como pilar fundamental para toda la depuración, análisis y modelado algorítmico en el entorno de Python.
+* **[APE 10: Inferencia Estadística Multigrupo](./APE10.ipynb)**  
+  Uso de ANOVA de 1 factor y pruebas de Tukey para comparar varios grupos entre sí.
 
 ---
 
-### Sustentación del Componente Autónomo
+### Evaluación Sumativa y Base de Datos
 
-* **[Registro Audiovisual de Defensa Técnica](https://drive.google.com/file/d/1IuH6-SREl6r1NkJoXJtFIlHAy-vx2Pou/view?usp=drive_link)**  
-  Presentación oral detallada donde se argumenta la selección de métodos paramétricos tras validar la normalidad mediante Shapiro-Wilk. Incluye un recorrido guiado por el código y la lectura crítica del P-valor para fundamentar las conclusiones finales.
+* **[Evaluación Sumativa II: Examen Práctico](./ExamenII_ArletteQuezada.ipynb)**  
+  Resolución de problemas reales aplicando todo lo que aprendimos de inferencia y modelos estadísticos.
 
----
-
-### Bitácora Reflexiva (Componente 3)
-
-**1. Avances Conceptuales en Inferencia:**  
-El hito fundamental de esta fase fue superar el análisis puramente descriptivo para adentrarme en técnicas inferenciales formales. Logré sistematizar, a través de rutinas en Python, la validación de condiciones previas ineludibles, como la comprobación de normalidad vía Shapiro-Wilk. Adicionalmente, interioricé el significado analítico del P-valor como herramienta definitiva para descartar o mantener hipótesis nulas, garantizando un margen de certeza del 95% en los modelos de comparación poblacional (ANOVA).
-
-**2. Obstáculos Computacionales Resueltos:**  
-El desafío de programación más complejo consistió en moldear los *DataFrames* que contenían la información de Loja, implementando una limpieza y filtrado de valores ausentes (`NaN`) que no sacrificara el volumen representativo de la muestra. Por otro lado, parametrizar adecuadamente los grados de libertad en los tests T para conjuntos independientes y procesar los resultados matriciales de las pruebas de Tukey demandaron un alto grado de abstracción lógica. Estos escollos se superaron exprimiendo al máximo las capacidades vectoriales de la librería `scipy.stats`.
+* **[Dataset Fuente: Datos de Loja](./Dataset_hogares_ambiental_2025.csv)**  
+  El archivo original con los datos de Loja que usamos para correr todas las simulaciones en Python.
 
 ---
 
-### Habilidades Adquiridas
+### Componente 2: Trabajo Autónomo (Defensa en Video)
 
-* **Estimación y Contraste:** Destreza comprobada para proponer, verificar y concluir sobre hipótesis estadísticas, además de calcular métricas poblacionales apoyadas en fundamentos matemáticos sólidos.
-* **Análisis de Varianza y Simulación:** Aptitud técnica para recrear escenarios probabilísticos y cuantificar las diferencias significativas entre múltiples grupos utilizando metodologías ANOVA.
+* **[Video de Defensa - Componente 2](https://drive.google.com/file/d/1IuH6-SREl6r1NkJoXJtFIlHAy-vx2Pou/view?usp=drive_link)**  
+  Un video corto (6-8 min) donde explico por qué usamos pruebas paramétricas (después de pasar el test de Shapiro-Wilk), muestro cómo funciona el código en Jupyter y analizo el valor-p para tomar decisiones estadísticas.
+
+---
+
+### Bitácora de Aprendizaje y Autoevaluación (Componente 3)
+
+**1. Lo que me llevo de la Unidad de Inferencia:**  
+En esta unidad por fin pasamos de solo describir datos a hacer inferencia de verdad. Lo mejor fue aprender a automatizar en Python las pruebas previas (como el test de Shapiro-Wilk) antes de lanzarme a hacer pruebas paramétricas. También logré entender bien qué significa realmente el valor-p y cómo nos ayuda a decidir, con un 95% de confianza, si rechazamos o no una hipótesis cuando comparamos varios grupos con ANOVA.
+
+**2. Los dolores de cabeza con el código:**  
+Lo más difícil fue acomodar bien los *DataFrames* con los datos de Loja y limpiar los valores vacíos (`NaN`) sin quedarme sin datos suficientes para la muestra. Además, cuadrar bien los grados de libertad en las pruebas T de Student y entender los resultados de las matrices de Tukey me costó un poco de trabajo mental, pero lo pude resolver usando las funciones vectorizadas de `scipy.stats`.
+
+---
+
+### Competencias Consolidadas
+
+* **Inferencia y estimación:** Capacidad para validar hipótesis y calcular parámetros poblacionales sin perder el rigor matemático.
+* **Modelos estocásticos:** Habilidad para simular escenarios y analizar diferencias entre grupos usando ANOVA.
